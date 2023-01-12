@@ -75,7 +75,7 @@ echo $newDate->format('Y-m-d H:i:s') . "<br>";
 //ADD
 $date = new DateTime('2023-01-10');
 $date->modify('+30 day');
-echo "Domani " .$date->format('d-m-Y');
+echo "Domani" .$date->format('d-m-Y');
 
 
 $date->modify('+3 month');
